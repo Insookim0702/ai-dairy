@@ -1,0 +1,32 @@
+# 규칙
+
+
+## 패키지 매니저
+- 패키지 매니저는 pnpm을 사용해주세요.
+
+# UI 컴포넌트
+
+- ShadCN을 우선적으로 사용합니다.
+- ShadCN 컴포넌트 추가 명령어:
+    ```
+    pnpm dlx shadcn@latest add [component]
+    ```
+
+# Next.js  Server Action & API Routes 사용 지침
+
+
+이 지침은 Next.js App Router 프로젝트에서 Server Action & API Routes를 사용할 때 따라야 하는 지침입니다.
+
+
+## Next.js Server Actions
+
+- server actions은 app/actions 폴더에 위치해야 합니다.
+- 하나의 파일에 한 개의 server actions만 작성해야 합니다.
+- 모든 server action은 타입스크립트로 작성해야 합니다.
+- 이렇게 작성이 된 server actions은 컴포넌트에서 호출할 수 있습니다.
+- 컴포넌트에서 호출할 때는 함수 형태로 호출해야 합니다.
+
+
+## Next.js API Routes
+
+

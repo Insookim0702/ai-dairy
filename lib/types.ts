@@ -4,4 +4,9 @@ export interface Diary {
   content: string;
   createdAt: string;
   updatedAt: string;
+}
+
+export interface GenerateDiaryResponse {
+  title: string;
+  content: string;
 } 
